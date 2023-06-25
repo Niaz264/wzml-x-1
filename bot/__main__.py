@@ -7,7 +7,7 @@ from os import execl as osexecl
 from asyncio import create_subprocess_exec, gather
 from uuid import uuid4
 from base64 import b64decode
-from quoters import Quote
+
 
 from requests import get as rget
 from pytz import timezone
